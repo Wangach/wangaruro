@@ -1,0 +1,45 @@
+div.landing {
+    height: 68vh;
+    .content {
+        margin: 150px 150px;
+    }
+}
+.about {
+    height: 450px;
+    
+    .ab-content {
+        background-color: $minor-color;
+        color: $main-color;
+        box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.767);
+        margin: 10px;
+        transform: translateY(20px);
+        border-radius: 5px;
+        padding: 20px;
+        height: 50vh;
+        .descr {
+            display: grid;
+        }
+    }
+}
+.contact-form {
+    width: 75%;
+    border: 1px solid $minor-color;
+    border-radius: 5px;
+    margin: 5px auto;
+    padding: 20px;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.767);
+    .form-top {
+        border: 1px solid $main-color;
+        border-radius: 3px;
+        padding: 30px;
+    }
+}
+.form-group{
+    input, textarea{
+        background-color: $main-color;
+        color: $minor-color;
+        &:focus {
+            background-color: $main-color;
+        }
+    }
+}

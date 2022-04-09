@@ -1,0 +1,38 @@
+.navbar-port {
+    background-color: $main-color;
+    color: $minor-color;
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid $main-color;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.767);
+}
+.mini {
+    font-size: 20px;
+    font-family: Teko;
+    color: $action-color;
+    
+}
+.maxi {
+    color: rgb(215, 249, 250);
+    font-size: 20px;
+    font-family: PlayB;
+    font-size: 40px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(215, 249, 250) !important;
+    &:hover {
+        color: $action-color !important;
+    }
+}
+.navbar-light a.navbar-brand {
+    color: rgb(215, 249, 250);
+}
+.btn-contact {
+    padding: 20px;
+    margin-top: 20px;
+    transform: translateY(70px);
+    background: $main-color;
+    color: rgb(215, 249, 250);
+    border: 1px solid $action-color;
+}

@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  body, div#root {
+    background-color: $main-color;
+    padding: 2px;
+    position: relative;
+    border-radius: 5px;
+
+  }
+  @font-face {
+    font-family: 'Acme';
+    src: local('Acme'), url(../fonts/Acme-Regular.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Cookie';
+    src: local('Cookie'), url(../fonts/Cookie-Regular.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Fredoka0ne';
+    src: local('FredokaOne'), url(../fonts/FredokaOne-Regular.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Satisfy';
+    src: local('Satisfy'), url(../fonts/Satisfy-Regular.ttf) format('truetype');
+  } @font-face {
+    font-family: 'Teko';
+    src: local('Teko'), url(../fonts/Teko-Regular.ttf) format('truetype');
+  } @font-face {
+    font-family: 'PlayB';
+    src: local('PlayB'), url(../fonts/Play-Bold.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'RajdhaniB';
+    src: local('RajdhaniB'), url(../fonts/Rajdhani-Bold.ttf) format('truetype');
+  }
+  
