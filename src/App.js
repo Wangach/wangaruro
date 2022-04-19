@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Landing from './components/Landing';
 import About from './components/About';
 import Blog from './components/Blog';
+import Projects from './components/Projects';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Landing />
       <About />
+      <Projects />
       <Contact />
       <Blog />
     </div>
