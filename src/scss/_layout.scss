@@ -55,13 +55,39 @@ div.landing {
         background-image: linear-gradient(to right, #2e0219ea, #66222ed5), url(../img/code.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 200px;
+        height: 180px;
         border: 1px solid $minor-color;
         border-radius: 5px;
+    }
+    .card-footer {
+        border: 1px solid $main-color;
+        border-radius: 5px;
+        height: 70px;
+        .code-links {
+            ul{
+                list-style: none;
+                li{
+                    display: inline;
+                    padding: 10px;
+                    a{
+                        color: rgb(215, 249, 250);
+                        background: $action-color;
+                        padding: 7px;
+                        border-radius: 100%;
+                    }
+                }
+            }
+        }
     }
 }
 
 //contact
+.s-contact {
+    background-color: $main-color;
+    color: $minor-color;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.767);
+    margin: 10px;
+}
 .contact-form {
     width: 75%;
     border: 1px solid $minor-color;

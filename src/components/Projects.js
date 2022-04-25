@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faCode } from '@fortawesome/free-solid-svg-icons';
+import { faEye, faCode } from '@fortawesome/free-solid-svg-icons';
 //import image from '../img/code.jpg';
 
 const Projects = () => {
@@ -30,7 +30,7 @@ const Projects = () => {
                   <ul>
                     <li>
                       <a href="#">
-                        <FontAwesomeIcon icon={faCoffee} size="md" />
+                        <FontAwesomeIcon icon={faEye} size="md" />
                       </a>
                     </li>
                     <li>
@@ -56,7 +56,22 @@ const Projects = () => {
                   montes, nascetur ridiculus mus.
                 </p>
               </div>
-              <div className="card-footer"></div>
+              <div className="card-footer">
+                <div className="code-links">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faEye} size="md" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faCode} size="md" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-md-4">
@@ -72,7 +87,22 @@ const Projects = () => {
                   montes, nascetur ridiculus mus.
                 </p>
               </div>
-              <div className="card-footer"></div>
+              <div className="card-footer">
+               <div className="code-links">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faEye} size="md" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <FontAwesomeIcon icon={faCode} size="md" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
